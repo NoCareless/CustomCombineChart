@@ -1,0 +1,17 @@
+//
+//  customCombineChart.pch
+//  CustomCombineChart
+//
+//  Created by qi.gao on 2018/8/15.
+//  Copyright © 2018 qi.gao. All rights reserved.
+//
+
+#ifndef customCombineChart_pch
+#define customCombineChart_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#endif /* customCombineChart_pch */

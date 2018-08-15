@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - JSONModel (1.7.0)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.2.1)
+  - Charts (~> 3.1.0)
+  - JSONModel (= 1.7)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Charts
+    - JSONModel
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+
+PODFILE CHECKSUM: 48d787e28cdd51c4350c4e01c221518518465b38
+
+COCOAPODS: 1.5.3

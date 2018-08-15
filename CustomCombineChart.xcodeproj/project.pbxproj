@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		727A1DD021241A8900637F3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A1DCF21241A8900637F3E /* AppDelegate.m */; };
+		727A1DD321241A8900637F3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A1DD221241A8900637F3E /* ViewController.m */; };
+		727A1DD621241A8900637F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727A1DD421241A8900637F3E /* Main.storyboard */; };
+		727A1DD821241A8A00637F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727A1DD721241A8A00637F3E /* Assets.xcassets */; };
+		727A1DDB21241A8A00637F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727A1DD921241A8A00637F3E /* LaunchScreen.storyboard */; };
+		727A1DDE21241A8A00637F3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A1DDD21241A8A00637F3E /* main.m */; };
+		727A1DE821241A8A00637F3E /* CustomCombineChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A1DE721241A8A00637F3E /* CustomCombineChartTests.m */; };
+		727A1DF321241A8A00637F3E /* CustomCombineChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A1DF221241A8A00637F3E /* CustomCombineChartUITests.m */; };
+		727A1E0421241D4E00637F3E /* BGGNetworkInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A1E0321241D4E00637F3E /* BGGNetworkInterfaceManager.m */; };
+		727A1E4F2124235E00637F3E /* BGGSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A1E4E2124235E00637F3E /* BGGSessionManager.m */; };
+		727A1E532124261600637F3E /* BGGCandleStickResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A1E512124261600637F3E /* BGGCandleStickResult.m */; };
+		727A1EDA2124310C00637F3E /* KLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A1ED92124310C00637F3E /* KLineView.m */; };
+		727A1EDD212432B300637F3E /* CustomCombineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727A1EDC212432B300637F3E /* CustomCombineChart.swift */; };
+		CF9A14437D566226EB52B16C /* Pods_CustomCombineChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97650EA335F652FC4CDB0CCA /* Pods_CustomCombineChart.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		727A1DE421241A8A00637F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 727A1DC321241A8900637F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 727A1DCA21241A8900637F3E;
+			remoteInfo = CustomCombineChart;
+		};
+		727A1DEF21241A8A00637F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 727A1DC321241A8900637F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 727A1DCA21241A8900637F3E;
+			remoteInfo = CustomCombineChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		727A1DCB21241A8900637F3E /* CustomCombineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCombineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		727A1DCE21241A8900637F3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		727A1DCF21241A8900637F3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		727A1DD121241A8900637F3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		727A1DD221241A8900637F3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		727A1DD521241A8900637F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		727A1DD721241A8A00637F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		727A1DDA21241A8A00637F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		727A1DDC21241A8A00637F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727A1DDD21241A8A00637F3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		727A1DE321241A8A00637F3E /* CustomCombineChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCombineChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		727A1DE721241A8A00637F3E /* CustomCombineChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCombineChartTests.m; sourceTree = "<group>"; };
+		727A1DE921241A8A00637F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727A1DEE21241A8A00637F3E /* CustomCombineChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCombineChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		727A1DF221241A8A00637F3E /* CustomCombineChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCombineChartUITests.m; sourceTree = "<group>"; };
+		727A1DF421241A8A00637F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727A1E0221241D4E00637F3E /* BGGNetworkInterfaceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGGNetworkInterfaceManager.h; sourceTree = "<group>"; };
+		727A1E0321241D4E00637F3E /* BGGNetworkInterfaceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGGNetworkInterfaceManager.m; sourceTree = "<group>"; };
+		727A1E4D2124235E00637F3E /* BGGSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGGSessionManager.h; sourceTree = "<group>"; };
+		727A1E4E2124235E00637F3E /* BGGSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGGSessionManager.m; sourceTree = "<group>"; };
+		727A1E512124261600637F3E /* BGGCandleStickResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGGCandleStickResult.m; sourceTree = "<group>"; };
+		727A1E522124261600637F3E /* BGGCandleStickResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGGCandleStickResult.h; sourceTree = "<group>"; };
+		727A1E5521242A3A00637F3E /* customCombineChart.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customCombineChart.pch; sourceTree = "<group>"; };
+		727A1ED82124310C00637F3E /* KLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLineView.h; sourceTree = "<group>"; };
+		727A1ED92124310C00637F3E /* KLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLineView.m; sourceTree = "<group>"; };
+		727A1EDB212432B300637F3E /* CustomCombineChart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCombineChart-Bridging-Header.h"; sourceTree = "<group>"; };
+		727A1EDC212432B300637F3E /* CustomCombineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCombineChart.swift; sourceTree = "<group>"; };
+		97650EA335F652FC4CDB0CCA /* Pods_CustomCombineChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomCombineChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8462DCA1B6393A6F3B5409A /* Pods-CustomCombineChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCombineChart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomCombineChart/Pods-CustomCombineChart.debug.xcconfig"; sourceTree = "<group>"; };
+		F052DA66CF06DA4B2D3E9FC0 /* Pods-CustomCombineChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCombineChart.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomCombineChart/Pods-CustomCombineChart.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		727A1DC821241A8900637F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9A14437D566226EB52B16C /* Pods_CustomCombineChart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727A1DE021241A8A00637F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727A1DEB21241A8A00637F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C488E69BD50BD0D90FECE36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8462DCA1B6393A6F3B5409A /* Pods-CustomCombineChart.debug.xcconfig */,
+				F052DA66CF06DA4B2D3E9FC0 /* Pods-CustomCombineChart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		727A1DC221241A8900637F3E = {
+			isa = PBXGroup;
+			children = (
+				727A1DCD21241A8900637F3E /* CustomCombineChart */,
+				727A1DE621241A8A00637F3E /* CustomCombineChartTests */,
+				727A1DF121241A8A00637F3E /* CustomCombineChartUITests */,
+				727A1DCC21241A8900637F3E /* Products */,
+				1C488E69BD50BD0D90FECE36 /* Pods */,
+				8A9ADB7ABB8FDB67F4B33285 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		727A1DCC21241A8900637F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				727A1DCB21241A8900637F3E /* CustomCombineChart.app */,
+				727A1DE321241A8A00637F3E /* CustomCombineChartTests.xctest */,
+				727A1DEE21241A8A00637F3E /* CustomCombineChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		727A1DCD21241A8900637F3E /* CustomCombineChart */ = {
+			isa = PBXGroup;
+			children = (
+				727A1E542124295600637F3E /* CustomCombineChart */,
+				727A1E502124261600637F3E /* BGGCandleStickResult */,
+				727A1E4C2124235E00637F3E /* BGGSessionManager */,
+				727A1E0221241D4E00637F3E /* BGGNetworkInterfaceManager.h */,
+				727A1E0321241D4E00637F3E /* BGGNetworkInterfaceManager.m */,
+				727A1DCE21241A8900637F3E /* AppDelegate.h */,
+				727A1DCF21241A8900637F3E /* AppDelegate.m */,
+				727A1DD121241A8900637F3E /* ViewController.h */,
+				727A1DD221241A8900637F3E /* ViewController.m */,
+				727A1E5521242A3A00637F3E /* customCombineChart.pch */,
+				727A1DD421241A8900637F3E /* Main.storyboard */,
+				727A1DD721241A8A00637F3E /* Assets.xcassets */,
+				727A1DD921241A8A00637F3E /* LaunchScreen.storyboard */,
+				727A1DDC21241A8A00637F3E /* Info.plist */,
+				727A1DDD21241A8A00637F3E /* main.m */,
+				727A1ED82124310C00637F3E /* KLineView.h */,
+				727A1ED92124310C00637F3E /* KLineView.m */,
+			);
+			path = CustomCombineChart;
+			sourceTree = "<group>";
+		};
+		727A1DE621241A8A00637F3E /* CustomCombineChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				727A1DE721241A8A00637F3E /* CustomCombineChartTests.m */,
+				727A1DE921241A8A00637F3E /* Info.plist */,
+			);
+			path = CustomCombineChartTests;
+			sourceTree = "<group>";
+		};
+		727A1DF121241A8A00637F3E /* CustomCombineChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				727A1DF221241A8A00637F3E /* CustomCombineChartUITests.m */,
+				727A1DF421241A8A00637F3E /* Info.plist */,
+			);
+			path = CustomCombineChartUITests;
+			sourceTree = "<group>";
+		};
+		727A1E4C2124235E00637F3E /* BGGSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				727A1E4D2124235E00637F3E /* BGGSessionManager.h */,
+				727A1E4E2124235E00637F3E /* BGGSessionManager.m */,
+			);
+			path = BGGSessionManager;
+			sourceTree = "<group>";
+		};
+		727A1E502124261600637F3E /* BGGCandleStickResult */ = {
+			isa = PBXGroup;
+			children = (
+				727A1E512124261600637F3E /* BGGCandleStickResult.m */,
+				727A1E522124261600637F3E /* BGGCandleStickResult.h */,
+			);
+			path = BGGCandleStickResult;
+			sourceTree = "<group>";
+		};
+		727A1E542124295600637F3E /* CustomCombineChart */ = {
+			isa = PBXGroup;
+			children = (
+				727A1EDC212432B300637F3E /* CustomCombineChart.swift */,
+				727A1EDB212432B300637F3E /* CustomCombineChart-Bridging-Header.h */,
+			);
+			path = CustomCombineChart;
+			sourceTree = "<group>";
+		};
+		8A9ADB7ABB8FDB67F4B33285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97650EA335F652FC4CDB0CCA /* Pods_CustomCombineChart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		727A1DCA21241A8900637F3E /* CustomCombineChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727A1DF721241A8A00637F3E /* Build configuration list for PBXNativeTarget "CustomCombineChart" */;
+			buildPhases = (
+				D0F587767EE99C1187F9DBAC /* [CP] Check Pods Manifest.lock */,
+				727A1DC721241A8900637F3E /* Sources */,
+				727A1DC821241A8900637F3E /* Frameworks */,
+				727A1DC921241A8900637F3E /* Resources */,
+				E9FA2D0FD13B1F626DFDF99D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCombineChart;
+			productName = CustomCombineChart;
+			productReference = 727A1DCB21241A8900637F3E /* CustomCombineChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		727A1DE221241A8A00637F3E /* CustomCombineChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727A1DFA21241A8A00637F3E /* Build configuration list for PBXNativeTarget "CustomCombineChartTests" */;
+			buildPhases = (
+				727A1DDF21241A8A00637F3E /* Sources */,
+				727A1DE021241A8A00637F3E /* Frameworks */,
+				727A1DE121241A8A00637F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				727A1DE521241A8A00637F3E /* PBXTargetDependency */,
+			);
+			name = CustomCombineChartTests;
+			productName = CustomCombineChartTests;
+			productReference = 727A1DE321241A8A00637F3E /* CustomCombineChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		727A1DED21241A8A00637F3E /* CustomCombineChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727A1DFD21241A8A00637F3E /* Build configuration list for PBXNativeTarget "CustomCombineChartUITests" */;
+			buildPhases = (
+				727A1DEA21241A8A00637F3E /* Sources */,
+				727A1DEB21241A8A00637F3E /* Frameworks */,
+				727A1DEC21241A8A00637F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				727A1DF021241A8A00637F3E /* PBXTargetDependency */,
+			);
+			name = CustomCombineChartUITests;
+			productName = CustomCombineChartUITests;
+			productReference = 727A1DEE21241A8A00637F3E /* CustomCombineChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		727A1DC321241A8900637F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = qi.gao;
+				TargetAttributes = {
+					727A1DCA21241A8900637F3E = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					727A1DE221241A8A00637F3E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 727A1DCA21241A8900637F3E;
+					};
+					727A1DED21241A8A00637F3E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 727A1DCA21241A8900637F3E;
+					};
+				};
+			};
+			buildConfigurationList = 727A1DC621241A8900637F3E /* Build configuration list for PBXProject "CustomCombineChart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 727A1DC221241A8900637F3E;
+			productRefGroup = 727A1DCC21241A8900637F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				727A1DCA21241A8900637F3E /* CustomCombineChart */,
+				727A1DE221241A8A00637F3E /* CustomCombineChartTests */,
+				727A1DED21241A8A00637F3E /* CustomCombineChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		727A1DC921241A8900637F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727A1DDB21241A8A00637F3E /* LaunchScreen.storyboard in Resources */,
+				727A1DD821241A8A00637F3E /* Assets.xcassets in Resources */,
+				727A1DD621241A8900637F3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727A1DE121241A8A00637F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727A1DEC21241A8A00637F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0F587767EE99C1187F9DBAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomCombineChart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FA2D0FD13B1F626DFDF99D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomCombineChart/Pods-CustomCombineChart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomCombineChart/Pods-CustomCombineChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		727A1DC721241A8900637F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727A1DD321241A8900637F3E /* ViewController.m in Sources */,
+				727A1E0421241D4E00637F3E /* BGGNetworkInterfaceManager.m in Sources */,
+				727A1EDD212432B300637F3E /* CustomCombineChart.swift in Sources */,
+				727A1E4F2124235E00637F3E /* BGGSessionManager.m in Sources */,
+				727A1EDA2124310C00637F3E /* KLineView.m in Sources */,
+				727A1E532124261600637F3E /* BGGCandleStickResult.m in Sources */,
+				727A1DDE21241A8A00637F3E /* main.m in Sources */,
+				727A1DD021241A8900637F3E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727A1DDF21241A8A00637F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727A1DE821241A8A00637F3E /* CustomCombineChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727A1DEA21241A8A00637F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727A1DF321241A8A00637F3E /* CustomCombineChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		727A1DE521241A8A00637F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 727A1DCA21241A8900637F3E /* CustomCombineChart */;
+			targetProxy = 727A1DE421241A8A00637F3E /* PBXContainerItemProxy */;
+		};
+		727A1DF021241A8A00637F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 727A1DCA21241A8900637F3E /* CustomCombineChart */;
+			targetProxy = 727A1DEF21241A8A00637F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		727A1DD421241A8900637F3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				727A1DD521241A8900637F3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		727A1DD921241A8A00637F3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				727A1DDA21241A8A00637F3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		727A1DF521241A8A00637F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREFIX_HEADER = customCombineChart.pch;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		727A1DF621241A8A00637F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREFIX_HEADER = customCombineChart.pch;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		727A1DF821241A8A00637F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8462DCA1B6393A6F3B5409A /* Pods-CustomCombineChart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = CustomCombineChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgogo.CustomCombineChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomCombineChart/CustomCombineChart/CustomCombineChart-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		727A1DF921241A8A00637F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F052DA66CF06DA4B2D3E9FC0 /* Pods-CustomCombineChart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = CustomCombineChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgogo.CustomCombineChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomCombineChart/CustomCombineChart/CustomCombineChart-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		727A1DFB21241A8A00637F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomCombineChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgogo.CustomCombineChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCombineChart.app/CustomCombineChart";
+			};
+			name = Debug;
+		};
+		727A1DFC21241A8A00637F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomCombineChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgogo.CustomCombineChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCombineChart.app/CustomCombineChart";
+			};
+			name = Release;
+		};
+		727A1DFE21241A8A00637F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomCombineChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgogo.CustomCombineChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomCombineChart;
+			};
+			name = Debug;
+		};
+		727A1DFF21241A8A00637F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomCombineChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgogo.CustomCombineChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomCombineChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		727A1DC621241A8900637F3E /* Build configuration list for PBXProject "CustomCombineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727A1DF521241A8A00637F3E /* Debug */,
+				727A1DF621241A8A00637F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727A1DF721241A8A00637F3E /* Build configuration list for PBXNativeTarget "CustomCombineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727A1DF821241A8A00637F3E /* Debug */,
+				727A1DF921241A8A00637F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727A1DFA21241A8A00637F3E /* Build configuration list for PBXNativeTarget "CustomCombineChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727A1DFB21241A8A00637F3E /* Debug */,
+				727A1DFC21241A8A00637F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727A1DFD21241A8A00637F3E /* Build configuration list for PBXNativeTarget "CustomCombineChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727A1DFE21241A8A00637F3E /* Debug */,
+				727A1DFF21241A8A00637F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 727A1DC321241A8900637F3E /* Project object */;
+}
